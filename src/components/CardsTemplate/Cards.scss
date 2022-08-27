@@ -1,7 +1,4 @@
 .container {
-    position: absolute;
-    display: flex;
-    justify-content: center;
     width: 100%;
     .row {
         width: 1170px;
@@ -34,19 +31,18 @@
                     h3 {
                         color: white;
                         font-size: 24px;
-                        
                     }
                     .cta-btn {
-                            color: white;
-                            text-transform: uppercase;
-                            font-weight: 500;
-                            text-decoration: none;
-                            .fa{
-                                font: normal normal normal 14px/1 FontAwesome;
-                                &::before {
-                                    content: "\f0a9";
-                                }
+                        color: white;
+                        text-transform: uppercase;
+                        font-weight: 500;
+                        text-decoration: none;
+                        .fa {
+                            font: normal normal normal 14px/1 FontAwesome;
+                            &::before {
+                                content: "\f0a9";
                             }
+                        }
                     }
                 }
                 &::before {
@@ -74,20 +70,17 @@
                     -webkit-transform: skewX(-45deg) translateX(-100%);
                     -ms-transform: skewX(-45deg) translateX(-100%);
                     transform: skewX(-45deg) translateX(-100%);
-                    
                 }
                 .shop-img {
                     position: relative;
                     background-color: #e4e7ed;
                     z-index: -1;
-                    
-                    
+
                     img {
                         width: 100%;
                         vertical-align: middle;
                         border: 0;
                         transition: 0.2s all;
-                        
                     }
                 }
             }
