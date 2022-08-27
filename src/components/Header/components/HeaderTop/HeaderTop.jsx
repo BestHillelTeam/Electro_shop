@@ -41,7 +41,7 @@ function HeaderTop() {
 
           {/* Map */}
           <li>
-            <a href="https://goo.gl/maps/MUDwuaz4PKsr3A6C8" target="_blank">
+            <a href="https://goo.gl/maps/MUDwuaz4PKsr3A6C8" target="_blank" rel="noreferrer">
               <i className="fa-solid fa-location-dot"></i>
               1734 Stonecoal Road
             </a>
@@ -51,7 +51,7 @@ function HeaderTop() {
         {/* Right block */}
         <ul className="pull-right">
           <li>
-            <a href={bankGovUaUrl} target="_blank">
+            <a href={bankGovUaUrl} target="_blank" rel="noreferrer">
               <i className="fa-solid fa-dollar-sign"></i>
               {course.rate} {course.cc}
             </a>
