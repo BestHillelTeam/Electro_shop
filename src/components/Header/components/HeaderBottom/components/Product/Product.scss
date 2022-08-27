@@ -1,0 +1,35 @@
+.product {
+  display: flex;
+  align-items: center;
+
+  img {width: 70px;}
+
+  &_block {
+    border-bottom: 1px solid #000;
+    color: #000;
+  }
+
+  &_info, &_price {margin: 0 0 0 30px;}
+
+  &_delete {
+    position: absolute;
+    background: transparent;
+    border: 0;
+    left: 0;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+
+    &:hover {color: #D10024;}
+  }
+
+  &_buy {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 0 0;
+    text-align: center;
+
+    button {width: 100%;}
+
+    a {width: 100%;}
+  }
+}
