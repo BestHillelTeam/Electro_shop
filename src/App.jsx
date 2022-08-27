@@ -1,11 +1,11 @@
-
-import './App.css';
-import CardsTemplate from './components/CardsTemplate/CardsTemplate';
+import './reset.scss';
+import './App.scss';
+import Header from './components/Header/Header';
 
 function App() {
   return (
     <div className="App">
-      <CardsTemplate></CardsTemplate>
+      <Header />
     </div>
   );
 }

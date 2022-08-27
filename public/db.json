@@ -1,0 +1,16 @@
+{
+  "1": {
+    "id": 1,
+    "title": "Apple MacBook Pro 13",
+    "price": 920,
+    "img": "./img/product01.png",
+    "category": "Laptop"
+  },
+  "2": {
+    "id": 2,
+    "title": "Iphone 13 Pro Max",
+    "price": 756,
+    "img": "./img/product07.png",
+    "category": "Phone"
+  }
+}
