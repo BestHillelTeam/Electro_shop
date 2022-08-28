@@ -1,3 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+  font-weight: 400;
+  height: 100%;
+}
+
 #root {
   min-width: 320px;
   min-height: 100vh;
@@ -11,8 +26,48 @@
   margin: 0 auto;
 }
 
-h3 {
-  color: #2B2D42;
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #2b2d42;
   font-weight: 700;
   margin: 0 0 10px;
+}
+
+a {
+  color: #2b2d42;
+  font-weight: 500;
+  -webkit-transition: 0.2s color;
+  transition: 0.2s color;
+}
+
+a:hover,
+a:focus {
+  color: #d10024;
+  text-decoration: none;
+  outline: none;
+}
+
+
+.App {
+  display: flex;
+flex-direction: column;
+min-width: 320px;
+min-height: 100vh;
+overflow: hidden;
+position: relative;
+}
+
+footer {
+  margin-top: auto;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
