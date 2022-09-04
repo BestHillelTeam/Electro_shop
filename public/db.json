@@ -1,16 +1,111 @@
-{
-  "1": {
+[
+  {
     "id": 1,
     "title": "Apple MacBook Pro 13",
-    "price": 920,
+    "Stock": "In Stock",
+    "price" : 920,
     "img": "./img/product01.png",
-    "category": "Laptop"
+    "category": "Laptop",
+    "optionsSize": [
+      23.8,
+      24.5,
+      25
+    ],
+    "optionsColor": [
+      "Red",
+      "Blue",
+      "Black"
+    ],
+    "about": "Occaecat tempor duis enim do aliqua commodo pariatur et. Mollit aute mollit labore incididunt elit quis. Adipisicing elit et laborum eiusmod et culpa ea minim ex proident ullamco fugiat enim. Aliqua do deserunt excepteur exercitation consequat fugiat excepteur.\r\n"
   },
-  "2": {
+  {
     "id": 2,
-    "title": "Iphone 13 Pro Max",
-    "price": 756,
+    "title": "Sennheiser HD 800 S",
+    "Stock": "In Stock",
+    "price" : 180,
+    "img": "./img/product02.png",
+    "category": "headphones",
+    "about": "Minim nisi aliqua eiusmod nulla amet elit. Ad minim dolore do ad cupidatat dolore. Ut commodo voluptate sit excepteur magna dolor minim fugiat id. Consequat ex deserunt amet minim pariatur eu. Minim adipisicing laborum cillum nisi culpa voluptate officia. Incididunt ea amet dolor incididunt.\r\n"
+  },
+  {
+    "id": 3,
+    "title": "ASUS Laptop X515JA-EJ1814",
+    "Stock": "In Stock",
+    "price" : 550,
+    "img": "./img/product03.png",
+    "category": "Laptop",
+    "about": "Minim nisi aliqua eiusmod nulla amet elit. Ad minim dolore do ad cupidatat dolore. Ut commodo voluptate sit excepteur magna dolor minim fugiat id. Consequat ex deserunt amet minim pariatur eu. Minim adipisicing laborum cillum nisi culpa voluptate officia. Incididunt ea amet dolor incididunt.\r\n"
+  },
+  {
+    "id": 4,
+    "title": "Sony Xperia Tablet Z4 Primo",
+    "Stock": "In Stock",
+    "price" : 235,
+    "img": "./img/product04.png",
+    "category": "Tablet",
+    "about": "Minim nisi aliqua eiusmod nulla amet elit. Ad minim dolore do ad cupidatat dolore. Ut commodo voluptate sit excepteur magna dolor minim fugiat id. Consequat ex deserunt amet minim pariatur eu. Minim adipisicing laborum cillum nisi culpa voluptate officia. Incididunt ea amet dolor incididunt.\r\n"
+  },
+  {
+    "id": 5,
+    "title": "Sony Pro MDR-7506/1",
+    "Stock": "In Stock",
+    "price" : 250,
+    "img": "./img/product05.png",
+    "category": "Phone",
+    "about": "Minim nisi aliqua eiusmod nulla amet elit. Ad minim dolore do ad cupidatat dolore. Ut commodo voluptate sit excepteur magna dolor minim fugiat id. Consequat ex deserunt amet minim pariatur eu. Minim adipisicing laborum cillum nisi culpa voluptate officia. Incididunt ea amet dolor incididunt.\r\n"
+  },
+  {
+    "id": 6,
+    "title": "MSI Modern 14 B11MOU-874XUA ",
+    "Stock": "In Stock",
+    "price" : 800,
+    "img": "./img/product06.png",
+    "category": "Laptop",
+    "about": "Minim nisi aliqua eiusmod nulla amet elit. Ad minim dolore do ad cupidatat dolore. Ut commodo voluptate sit excepteur magna dolor minim fugiat id. Consequat ex deserunt amet minim pariatur eu. Minim adipisicing laborum cillum nisi culpa voluptate officia. Incididunt ea amet dolor incididunt.\r\n"
+  },
+  {
+    "id": 7,
+    "title": "Samsung S9",
+    "Stock": "In Stock",
+    "price" : 220,
     "img": "./img/product07.png",
-    "category": "Phone"
+    "category": "Phone",
+    "about": "Minim nisi aliqua eiusmod nulla amet elit. Ad minim dolore do ad cupidatat dolore. Ut commodo voluptate sit excepteur magna dolor minim fugiat id. Consequat ex deserunt amet minim pariatur eu. Minim adipisicing laborum cillum nisi culpa voluptate officia. Incididunt ea amet dolor incididunt.\r\n"
+  },
+  {
+    "id": 8,
+    "title": "ASUS VivoBook S S533EQ-BQ050",
+    "Stock": "In Stock",
+    "price" : 1000,
+    "img": "./img/product08.png",
+    "category": "Laptop",
+    "about": "Minim nisi aliqua eiusmod nulla amet elit. Ad minim dolore do ad cupidatat dolore. Ut commodo voluptate sit excepteur magna dolor minim fugiat id. Consequat ex deserunt amet minim pariatur eu. Minim adipisicing laborum cillum nisi culpa voluptate officia. Incididunt ea amet dolor incididunt.\r\n"
+  },
+  {
+    "id": 9,
+    "title": "Canon EOS M50 Mark II",
+    "Stock": "In Stock",
+    "price" : 855,
+    "img": "./img/product09.png",
+    "category": "Сamera",
+    "about": "Minim nisi aliqua eiusmod nulla amet elit. Ad minim dolore do ad cupidatat dolore. Ut commodo voluptate sit excepteur magna dolor minim fugiat id. Consequat ex deserunt amet minim pariatur eu. Minim adipisicing laborum cillum nisi culpa voluptate officia. Incididunt ea amet dolor incididunt.\r\n"
+  },
+  {
+    "id": 10,
+    "title": "Canon PowerShot SX540",
+    "Stock": "In Stock",
+    "price" : 480,
+    "img": "./img/product10.png",
+    "category": "Сamera",
+    "about": "Minim nisi aliqua eiusmod nulla amet elit. Ad minim dolore do ad cupidatat dolore. Ut commodo voluptate sit excepteur magna dolor minim fugiat id. Consequat ex deserunt amet minim pariatur eu. Minim adipisicing laborum cillum nisi culpa voluptate officia. Incididunt ea amet dolor incididunt.\r\n"
+  },
+  {
+    "id": 11,
+    "title": "Sony Cyber-Shot DSC-H300",
+    "Stock": "In Stock",
+    "price" : 435,
+    "img": "./img/product11.png",
+    "category": "Сamera",
+    "about": "Minim nisi aliqua eiusmod nulla amet elit. Ad minim dolore do ad cupidatat dolore. Ut commodo voluptate sit excepteur magna dolor minim fugiat id. Consequat ex deserunt amet minim pariatur eu. Minim adipisicing laborum cillum nisi culpa voluptate officia. Incididunt ea amet dolor incididunt.\r\n"
   }
-}
+]

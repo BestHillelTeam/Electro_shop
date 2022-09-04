@@ -15,7 +15,7 @@ function CartDropdown() {
     fetch(dataBase).then(res => res.json()).then(product => {
       setProd(product);
     });
-  }, []);
+  });
 
   // Open & close cart
   const openCart = () => setCartOpen(true);
@@ -26,7 +26,7 @@ function CartDropdown() {
     <>
       {/* Cart icon */}
       <div className="header_cart-icon" onClick={openCart}>
-        <a className="dropdown-toggle">
+        <a className="dropdown-toggle" href="/">
           <i className="fa fa-shopping-cart"></i>
           <span>Your Cart</span>
           <div className="qty">{Object.values(prod).length}</div>

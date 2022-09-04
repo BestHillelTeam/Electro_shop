@@ -14,7 +14,7 @@ function WishList() {
     fetch(dataBase).then(res => res.json()).then(product => {
       setProd(product);
     });
-  }, []);
+  });
 
   // Open & close wishlist
   const openWishList = () => setWishList(true);
@@ -25,7 +25,7 @@ function WishList() {
 
       {/* WishList icon */}
       <div className="header_wishlist-icon" onClick={openWishList}>
-        <a href="#">
+        <a href="/">
           <i className="fa fa-heart-o"></i>
           <span>Your Wishlist</span>
           <div className="qty">1</div>
