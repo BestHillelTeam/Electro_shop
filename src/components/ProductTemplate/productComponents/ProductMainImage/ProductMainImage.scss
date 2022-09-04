@@ -1,0 +1,17 @@
+.productImage {
+    height: 458px;
+    width: 458px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 999;
+    opacity: 1;
+    overflow: hidden;
+    img {
+        transition: all .2s ease;
+    }
+    img:hover {
+        transform: scale(1.1);
+    }
+}
+
